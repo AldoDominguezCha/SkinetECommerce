@@ -6,3 +6,7 @@ API/bin/Debug/*
 API/obj/
 /API/obj/
 API/obj/*
+API/bin/
+API/obj/
+bin/
+obj/
