@@ -1,0 +1,8 @@
+./API/bin/Debug/
+API/bin/Debug/
+/API/bin/Debug/
+API/bin/Debug/*
+./API/obj/
+API/obj/
+/API/obj/
+API/obj/*
