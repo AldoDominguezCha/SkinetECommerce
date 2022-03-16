@@ -11,3 +11,4 @@ API/obj/
 bin/
 obj/
 appsettings.json
+*.db
