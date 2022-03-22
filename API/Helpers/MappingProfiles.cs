@@ -14,7 +14,8 @@ namespace API.Helpers
         {
             CreateMap<Product, ProductToReturnDTO>()
                 .ForMember(dto => dto.ProductBrand, opt => opt.MapFrom(src => src.ProductBrand.Name))
-                .ForMember(dto => dto.ProductType, opt => opt.MapFrom(src => src.ProductType.Name));
+                .ForMember(dto => dto.ProductType, opt => opt.MapFrom(src => src.ProductType.Name))
+                .ForMember(dto => dto.PictureUrl, opt => opt.MapFrom<ProductUrlResolver>());
         }
     }
 }
