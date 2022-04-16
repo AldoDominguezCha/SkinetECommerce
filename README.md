@@ -1,3 +1,3 @@
 # ECommerce web application with .NET and Angular
 
-This is a proof-of-concept web application for an e-commerce site, the back-end is built in .NET, using the generic repository anti-pattern, complemented by the specification pattern (an auxiliar class to further specify and build a query so we don't get limited by using the generic repository). The graphic client of the application is an Angular project, that consumes our .NET written APIs. 
+This is a proof-of-concept web application for an e-commerce site, the back-end is built in .NET, using the generic repository anti-pattern, complemented by the specification pattern (an auxiliar class to further specify and build a query so we don't get limited by using the generic repository, allowing us to eager load the related entities of a certain model, for example). The graphic client of the application is an Angular project, that consumes our .NET written APIs. 
